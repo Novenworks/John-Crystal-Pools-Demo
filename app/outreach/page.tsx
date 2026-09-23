@@ -79,13 +79,17 @@ export default function OutreachPage() {
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-I came across John Crystal Pools and ended up spending some time on the site.
+I came across John Crystal Pools and ended up spending some time looking through the site.
 
-You already have real work to show. I had an idea for giving the projects and proof more room, so I built a version.
+The experience and service mix are already pretty distinctive.
+
+I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
 
 https://john-crystal-pools-demo.vercel.app
 
-Thought you might be curious to see it. If the direction clicks, I can show you what I changed.
+Thought you might be curious to see it.
+
+If you like the direction, I can show you what I changed.
 
 Vincent
 Novenworks`}
@@ -97,11 +101,11 @@ Novenworks`}
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-Just bumping this once in case it got buried. I put together that John Crystal Pools homepage idea and wanted to make sure you saw it.
+Just bumping this once in case it got buried. I put together that John Crystal Pools concept and wanted to make sure you saw it.
 
 https://john-crystal-pools-demo.vercel.app
 
-No pressure if the timing is bad. Figured it was worth sending.
+All good if it's not something you're looking at right now.
 
 Vincent`}
           </pre>
