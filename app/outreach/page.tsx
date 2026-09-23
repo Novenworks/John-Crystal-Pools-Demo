@@ -81,7 +81,7 @@ export default function OutreachPage() {
 
 I came across John Crystal Pools and ended up spending some time looking through the site.
 
-The experience and service mix are already pretty distinctive.
+The real work is already the strongest part of the story.
 
 I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
 
