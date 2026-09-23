@@ -68,10 +68,10 @@ export default function OutreachPage() {
       <section className="mt-10">
         <h2 className="font-serif text-2xl">Subject lines</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
-            <li>John, I made something for John Crystal Pools</li>
-            <li>Had an idea for John Crystal Pools</li>
-            <li>John, I tried something with the John Crystal Pools site</li>
-          </ol>
+          <li>John, I made something for John Crystal Pools</li>
+          <li>Had an idea for John Crystal Pools</li>
+          <li>Tried something with the John Crystal Pools site</li>
+        </ol>
       </section>
 
       <section className="mt-10">
@@ -79,15 +79,13 @@ export default function OutreachPage() {
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-I came across John Crystal Pools and spent some time looking through the site.
+I came across John Crystal Pools and ended up spending some time on the site.
 
-What stood out to me was the real project work and the finished results. I had an idea for how I would bring that forward more, so I built a version instead of sending you a list of suggestions.
+You already have real work to show. I had an idea for giving the projects and proof more room, so I built a version.
 
 https://john-crystal-pools-demo.vercel.app
 
-Thought you might be curious to see it.
-
-If you like the direction, I can show you what I changed.
+Thought you might be curious to see it. If the direction clicks, I can show you what I changed.
 
 Vincent
 Novenworks`}
@@ -99,11 +97,11 @@ Novenworks`}
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-Just bumping this once in case it got buried. I spent some real time on the John Crystal Pools concept and wanted to make sure you saw it.
+Just bumping this once in case it got buried. I put together that John Crystal Pools homepage idea and wanted to make sure you saw it.
 
 https://john-crystal-pools-demo.vercel.app
 
-No worries if the timing is off.
+No pressure if the timing is bad. Figured it was worth sending.
 
 Vincent`}
           </pre>
