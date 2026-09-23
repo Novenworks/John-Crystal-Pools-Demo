@@ -68,10 +68,10 @@ export default function OutreachPage() {
       <section className="mt-10">
         <h2 className="font-serif text-2xl">Subject lines</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
-          <li>John, I made something for John Crystal Pools</li>
-          <li>Had an idea for John Crystal Pools</li>
-          <li>Tried something with the John Crystal Pools site</li>
-        </ol>
+            <li>John, I made something for John Crystal Pools</li>
+            <li>had an idea for John Crystal Pools</li>
+            <li>quick thing I built for John Crystal Pools</li>
+          </ol>
       </section>
 
       <section className="mt-10">
@@ -79,11 +79,11 @@ export default function OutreachPage() {
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-I came across John Crystal Pools and ended up spending some time looking through the site.
+I came across John Crystal Pools and ended up spending a little time on the site.
 
-The real work is already the strongest part of the story.
+You already have the part that matters, real work and a business people can trust.
 
-I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
+I had an idea for how I'd present it, so I built a version instead of sending you a list of suggestions.
 
 https://john-crystal-pools-demo.vercel.app
 
@@ -101,11 +101,11 @@ Novenworks`}
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-Just bumping this once in case it got buried. I put together that John Crystal Pools concept and wanted to make sure you saw it.
+Quick follow-up on the John Crystal Pools concept I sent over.
 
 https://john-crystal-pools-demo.vercel.app
 
-All good if it's not something you're looking at right now.
+No rush on it. I just didn't want it to disappear in your inbox before you had a chance to see it.
 
 Vincent`}
           </pre>
