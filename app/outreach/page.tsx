@@ -70,7 +70,7 @@ export default function OutreachPage() {
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
             <li>John, I made something for John Crystal Pools</li>
             <li>Had an idea for John Crystal Pools</li>
-            <li>Tried something with the John Crystal Pools site</li>
+            <li>John, I tried something with the John Crystal Pools site</li>
           </ol>
       </section>
 
@@ -81,11 +81,11 @@ export default function OutreachPage() {
 
 I came across John Crystal Pools and spent some time looking through the site.
 
-There was enough good stuff there that I started thinking about how I would present it differently, so I built a version instead of just sending you suggestions.
+What stood out to me was the real project work and the finished results. I had an idea for how I would bring that forward more, so I built a version instead of sending you a list of suggestions.
 
 https://john-crystal-pools-demo.vercel.app
 
-Thought you might be curious to see where I took it.
+Thought you might be curious to see it.
 
 If you like the direction, I can show you what I changed.
 
@@ -99,11 +99,11 @@ Novenworks`}
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-Just bumping this once in case it got buried. I put together that John Crystal Pools homepage concept and wanted to make sure you saw it.
+Just bumping this once in case it got buried. I spent some real time on the John Crystal Pools concept and wanted to make sure you saw it.
 
 https://john-crystal-pools-demo.vercel.app
 
-No worries if it is not something you are looking at right now.
+No worries if the timing is off.
 
 Vincent`}
           </pre>
