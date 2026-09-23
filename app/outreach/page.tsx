@@ -68,20 +68,45 @@ export default function OutreachPage() {
       <section className="mt-10">
         <h2 className="font-serif text-2xl">Subject lines</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
-          <li>John Crystal Pools — a homepage that shows the backyard, not the template</li>
-          <li>Speculative redesign: your 1970 story and vanishing-edge work</li>
-          <li>Quick note on johncrystalpools.com (2021 copyright, hidden project photos)</li>
-        </ol>
+            <li>John, I made something for John Crystal Pools</li>
+            <li>Had an idea for John Crystal Pools</li>
+            <li>Tried something with the John Crystal Pools site</li>
+          </ol>
       </section>
 
       <section className="mt-10">
         <h2 className="font-serif text-2xl">Cold email</h2>
-        <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">{`John —\n\nI was looking at johncrystalpools.com. The work in the old galleries is the product. The live homepage still carries a 2021 copyright and often no longer renders as a designed site.\n\nNovenworks built a speculative redesign using your own photography and the copy already on your About and Contact pages. It is not a client project.\n\nDemo: https://john-crystal-pools-demo-novenworks-abbd0c90.vercel.app\n\nIf it is useful as a starting point, I am happy to walk through it.\n\nVincent\nNovenworks`}</pre>
+        <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
+            {`Hi John,
+
+I came across John Crystal Pools and spent some time looking through the site.
+
+There was enough good stuff there that I started thinking about how I would present it differently, so I built a version instead of just sending you suggestions.
+
+https://john-crystal-pools-demo.vercel.app
+
+Thought you might be curious to see where I took it.
+
+If you like the direction, I can show you what I changed.
+
+Vincent
+Novenworks`}
+          </pre>
       </section>
 
       <section className="mt-10">
         <h2 className="font-serif text-2xl">Follow-up</h2>
-        <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">{`John — short follow-up on the speculative homepage mock. The live site still hides the project photos behind old gallery URLs. Demo: https://john-crystal-pools-demo-novenworks-abbd0c90.vercel.app`}</pre>
+        <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
+            {`Hi John,
+
+Just bumping this once in case it got buried. I put together that John Crystal Pools homepage concept and wanted to make sure you saw it.
+
+https://john-crystal-pools-demo.vercel.app
+
+No worries if it is not something you are looking at right now.
+
+Vincent`}
+          </pre>
       </section>
 
       <section className="mt-10">
