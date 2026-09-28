@@ -13,3 +13,7 @@
 - Repo persisted at https://github.com/Novenworks/John-Crystal-Pools-Demo (public).
 - Outreach GitHub URL corrected to the Novenworks org repo.
 - Homepage images use first-party Wayback `im_` URLs so GitHub/Vercel render without binary uploads through the GitHub file API. Local copies remain in workspace `public/images` and `public/outreach`.
+
+## 2026-09-27
+- Committed the first-party images the homepage actually renders to `public/images/` (logo.png, front-s01, front-s03, front-s05, bh-vanish-s01, bh-vanish-s02, bh-vanish-s07, bh-water-s01, la-living-s01), re-downloaded from the same Wayback `im_` URLs and checked against ASSET-INVENTORY dimensions (1600×750 photos, 250×225 logo). Homepage and header now load them locally instead of hotlinking web.archive.org, which was slow and intermittently blocked (ERR_BLOCKED_BY_ORB). No images added or substituted; layout unchanged.
+- Capture pass completed into `public/outreach/` (per docs/CAPTURES.md): BEFORE is the live johncrystalpools.com as served to Chromium at 1440×900 — the SiteGround robot-challenge page (HTTP 202); AFTER desktop 1440×900, AFTER mobile 390×844, scroll GIF/MP4 from the local production build. `/outreach` now shows the three stills inline.

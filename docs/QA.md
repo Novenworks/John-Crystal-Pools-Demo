@@ -11,7 +11,7 @@ Checks
 - [x] Form discloses mailto behavior
 - [x] `/outreach` not in nav or footer
 - [x] robots.txt disallows /outreach
-- [ ] Production pass after Vercel deploy
-- [ ] Capture pass after production URL
+- [ ] Production pass after Vercel deploy (local production build passed 2026-09-27; re-run against production after the asset PR merges)
+- [x] Capture pass (2026-09-27, local production build of the asset branch; BEFORE = live site as served: SiteGround robot challenge, HTTP 202)
 
 Known limitation: live original site may show captcha or unstyled HTML; BEFORE capture documents that state, not a reconstructed 2015 theme.
