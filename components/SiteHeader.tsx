@@ -18,7 +18,7 @@ export default function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-5 md:px-8">
         <a href="#top" className="flex items-center gap-3 text-cream">
           <img
-            src="https://web.archive.org/web/20240715030927im_/https://johncrystalpools.com/images/john-crystal-pools-logo.png"
+            src="/images/logo.png"
             alt="John Crystal Pools"
             className="h-12 w-12 rounded-sm bg-cream/95 object-contain p-1 md:h-14 md:w-14"
           />

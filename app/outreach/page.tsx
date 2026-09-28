@@ -113,7 +113,21 @@ Vincent`}
 
       <section className="mt-10">
         <h2 className="font-serif text-2xl">Capture assets</h2>
-        <ul className="mt-3 space-y-2 text-sm">
+        <div className="mt-4 space-y-8 text-sm">
+          <figure>
+            <img src="/outreach/before-original-desktop.png" alt="BEFORE: johncrystalpools.com at 1440px, served as the SiteGround robot-challenge page" className="w-full border border-stone/40" />
+            <figcaption className="mt-2 text-ink/70">BEFORE — live johncrystalpools.com at 1440×900, captured 2026-09-27. The host returned its SiteGround robot-challenge page (HTTP 202) instead of the homepage; shown as served, not a reconstructed theme.</figcaption>
+          </figure>
+          <figure>
+            <img src="/outreach/after-desktop.png" alt="AFTER: demo homepage at 1440px" className="w-full border border-stone/40" />
+            <figcaption className="mt-2 text-ink/70">AFTER — demo homepage, desktop 1440×900.</figcaption>
+          </figure>
+          <figure>
+            <img src="/outreach/after-mobile.png" alt="AFTER: demo homepage at 390px mobile" className="mx-auto w-full max-w-[320px] border border-stone/40" />
+            <figcaption className="mt-2 text-center text-ink/70">AFTER — demo homepage, mobile 390×844.</figcaption>
+          </figure>
+        </div>
+        <ul className="mt-6 space-y-2 text-sm">
           <li><a className="underline" href="/outreach/before-original-desktop.png">BEFORE original desktop</a></li>
           <li><a className="underline" href="/outreach/after-desktop.png">AFTER desktop</a></li>
           <li><a className="underline" href="/outreach/after-mobile.png">AFTER mobile</a></li>

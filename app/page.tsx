@@ -3,14 +3,14 @@ import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 
 const img = {
-  night: "https://web.archive.org/web/20171025183727im_/http://johncrystalpools.com/images/front/s01.jpg",
-  edge: "https://web.archive.org/web/20171025183727im_/http://johncrystalpools.com/images/front/s05.jpg",
-  living: "https://web.archive.org/web/20171025183727im_/http://johncrystalpools.com/images/front/s03.jpg",
-  vanish1: "https://web.archive.org/web/20160527193626im_/http://johncrystalpools.com/images/g-beverly-hills-vanishing-edge-pool-design-spa-with-custom-tile/s01.jpg",
-  vanish2: "https://web.archive.org/web/20160527193631im_/http://johncrystalpools.com/images/g-beverly-hills-vanishing-edge-pool-design-spa-with-custom-tile/s02.jpg",
-  vanish7: "https://web.archive.org/web/20160527200410im_/http://johncrystalpools.com/images/g-beverly-hills-vanishing-edge-pool-design-spa-with-custom-tile/s07.jpg",
-  water: "https://web.archive.org/web/20160527201216im_/http://johncrystalpools.com/images/g-beverly-hills-pool-spa-design-custom-water-feature/s01.jpg",
-  outdoor: "https://web.archive.org/web/20160527193613im_/http://johncrystalpools.com/images/g-los-angeles-outdoor-living-spaces-with-pool-spa-custom-tile/s01.jpg",
+  night: "/images/front-s01.jpg",
+  edge: "/images/front-s05.jpg",
+  living: "/images/front-s03.jpg",
+  vanish1: "/images/bh-vanish-s01.jpg",
+  vanish2: "/images/bh-vanish-s02.jpg",
+  vanish7: "/images/bh-vanish-s07.jpg",
+  water: "/images/bh-water-s01.jpg",
+  outdoor: "/images/la-living-s01.jpg",
 };
 
 const projects = [
