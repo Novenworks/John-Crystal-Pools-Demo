@@ -15,7 +15,7 @@ export default function EstimateForm() {
     const project = String(data.get("project") || "");
     const subject = encodeURIComponent(`Estimate request from ${name || "website"}`);
     const body = encodeURIComponent(
-      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nCity / neighborhood: ${city}\nProject: ${project}\n\nSent from the speculative Novenworks demo form. This opens the visitor's email client — no lead is stored on this demo.`
+      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nCity / neighborhood: ${city}\nProject: ${project}`
     );
     window.location.href = `mailto:customerservice@johncrystalpools.com?subject=${subject}&body=${body}`;
     setSent(true);
@@ -33,8 +33,8 @@ export default function EstimateForm() {
       </div>
       <label className="grid gap-1 text-sm">What are you considering?<textarea name="project" rows={4} className="rounded-sm border border-stone/50 bg-white px-3 py-2 text-ink outline-none focus:border-water" placeholder="New pool, remodel, spa, landscape, hardscape…" /></label>
       <button type="submit" className="h-12 rounded-sm bg-water px-6 text-sm font-semibold uppercase tracking-wider text-cream hover:bg-lagoon">Request an Estimate</button>
-      <p className="text-xs text-ink/60">Opens your email to customerservice@johncrystalpools.com. Nothing is stored on this demo site.</p>
-      {sent && (<p className="text-sm text-water">If your email client did not open, write directly to customerservice@johncrystalpools.com or call (818) 885-0004.</p>)}
+      <p className="text-xs text-ink/60">This opens a pre-filled email in your email app, addressed to customerservice@johncrystalpools.com. Nothing is submitted or stored on this site.</p>
+      {sent && (<p className="text-sm text-water">If your email app did not open, write directly to customerservice@johncrystalpools.com or call (818) 885-0004.</p>)}
     </form>
   );
 }
