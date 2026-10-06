@@ -16,7 +16,7 @@ export default function OutreachPage() {
         <h2 className="font-serif text-2xl">Snapshot</h2>
         <p><strong>Business:</strong> John Crystal Pools — custom pools, spas, water features, landscapes, hardscapes.</p>
         <p><strong>Original URL:</strong> <a className="underline" href="https://johncrystalpools.com/">https://johncrystalpools.com/</a></p>
-        <p><strong>Demo:</strong> https://john-crystal-pools-demo-novenworks-abbd0c90.vercel.app</p>
+        <p><strong>Demo:</strong> https://john-crystal-pools-demo.vercel.app</p>
         <p><strong>Phone:</strong> (818) 885-0004 · (310) 477-2828</p>
         <p><strong>Email:</strong> customerservice@johncrystalpools.com</p>
         <p><strong>Mailing:</strong> 9560 Topanga Canyon Blvd, Unit 202, Chatsworth, CA 91311</p>
@@ -24,13 +24,11 @@ export default function OutreachPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-serif text-2xl">Original-site observations</h2>
+        <h2 className="font-serif text-2xl">Original-site observations (verified 2026-10-06)</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
-          <li>Copyright still reads 2021.</li>
-          <li>SiteGround challenge + broken JS/CSS often leaves visitors with unstyled HTML.</li>
-          <li>Real project photos live in old gallery URLs, not on the homepage.</li>
-          <li>Primary CTA is a phone number in the body copy.</li>
-          <li>No obvious current agency credit on first-party pages.</li>
+          <li>Lead observation for outreach: the footer/copyright on johncrystalpools.com still reads 2021 (fetched 2026-10-06).</li>
+          <li>The contact page lists email and two phone numbers but no contact form (fetched 2026-10-06).</li>
+          <li>An automated headless Chromium visit returned a SiteGround robot-challenge page instead of the homepage. This is an automated-browser result only; do not claim real visitors see it.</li>
         </ol>
       </section>
 
@@ -40,7 +38,7 @@ export default function OutreachPage() {
           <li>Hero uses their night courtyard pool and states the offer in one sentence.</li>
           <li>Services grouped around buyer decisions.</li>
           <li>Work grid uses first-party project photography.</li>
-          <li>Verified phone, email, Chatsworth address. Form opens mailto.</li>
+          <li>Verified phone, email, Chatsworth address. Form opens a pre-filled email to the published address; nothing is stored.</li>
           <li>Proof limited to 1970 start, Total Concept, LA Times, named geography.</li>
         </ol>
       </section>
@@ -61,6 +59,7 @@ export default function OutreachPage() {
           <li>Do not imply Novenworks was hired or owns the photography.</li>
           <li>Do not invent ROI, SEO, leads, reviews, staff size, warranties, or prices.</li>
           <li>Do not claim current CSLB status.</li>
+          <li>Do not promise a timeline, price, support period, or outcome.</li>
           <li>Do not quote the old LA Times “700 projects” figure as a current stat.</li>
         </ul>
       </section>
@@ -75,39 +74,26 @@ export default function OutreachPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-serif text-2xl">Cold email</h2>
-        <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
-            {`Hi John,
-
-I came across John Crystal Pools and ended up spending a little time on the site.
-
-You already have the part that matters, real work and a business people can trust.
-
-I had an idea for how I'd present it, so I built a version instead of sending you a list of suggestions.
-
-https://john-crystal-pools-demo.vercel.app
-
-Thought you might be curious to see it.
-
-If you like the direction, I can show you what I changed.
-
-Vincent
-Novenworks`}
-          </pre>
+        <h2 className="font-serif text-2xl">Contact channel</h2>
+        <p className="mt-3 text-sm">Published business email customerservice@johncrystalpools.com, listed on https://johncrystalpools.com/contactus.htm (checked 2026-10-06). Nothing has been sent. Recipient is the business inbox; confirm John Crystal is the decision-maker when replying.</p>
       </section>
 
       <section className="mt-10">
-        <h2 className="font-serif text-2xl">Follow-up</h2>
+        <h2 className="font-serif text-2xl">Cold email (send the demo root URL, never /outreach)</h2>
         <pre className="mt-3 whitespace-pre-wrap rounded-sm bg-white p-4 text-sm">
             {`Hi John,
 
-Quick follow-up on the John Crystal Pools concept I sent over.
+I was looking at johncrystalpools.com and noticed the copyright still reads 2021, even though the project photography is the kind of work that sells itself.
 
-https://john-crystal-pools-demo.vercel.app
+I built a concept homepage so you can see what it could look like: https://john-crystal-pools-demo.vercel.app
 
-No rush on it. I just didn't want it to disappear in your inbox before you had a chance to see it.
+The idea is that a homeowner lands on your photography first, sees how Total Concept works, and has a clear way to call or email you for an estimate.
 
-Vincent`}
+What you would get is a done-for-you package: the copy, the build, mobile polish, your existing email and phone connected as the estimate path, technical setup, and launch. I handle the work. You review and approve.
+
+Want me to send over the full breakdown of what you get and what it costs?
+
+Vincent, Novenworks`}
           </pre>
       </section>
 

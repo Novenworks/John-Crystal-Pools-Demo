@@ -42,23 +42,23 @@ export default function HomePage() {
       <section className="border-y border-stone/30 bg-cream">
         <div className="mx-auto grid max-w-7xl gap-8 px-5 py-8 text-sm md:grid-cols-4 md:px-8">
           <div><p className="font-serif text-2xl text-water">1970</p><p className="mt-1 text-ink/70">John Crystal began his pool career as a service technician</p></div>
-          <div><p className="font-serif text-2xl text-water">Total Concept</p><p className="mt-1 text-ink/70">In-house staff with pool, landscape, and hardscape specialists</p></div>
-          <div><p className="font-serif text-2xl text-water">Los Angeles Times</p><p className="mt-1 text-ink/70">Company featured in a published lifestyle profile</p></div>
-          <div><p className="font-serif text-2xl text-water">Westside + Valley</p><p className="mt-1 text-ink/70">Work shown from Beverly Hills to Santa Monica and the Valley</p></div>
+          <div><p className="font-serif text-2xl text-water">Total Concept</p><p className="mt-1 text-ink/70">Our in-house staff works with pool, landscape, and hardscape specialists</p></div>
+          <div><p className="font-serif text-2xl text-water">Los Angeles Times</p><p className="mt-1 text-ink/70">We have been featured in a published profile</p></div>
+          <div><p className="font-serif text-2xl text-water">LA + Ventura</p><p className="mt-1 text-ink/70">We build across Los Angeles County and Ventura County</p></div>
         </div>
       </section>
       <section id="services" className="bg-cream px-5 py-20 md:px-8">
         <div className="mx-auto max-w-7xl">
           <p className="text-xs uppercase tracking-[0.28em] text-water">What we build</p>
           <h2 className="mt-3 max-w-2xl font-serif text-4xl md:text-5xl">The finished backyard is the product</h2>
-          <p className="mt-4 max-w-2xl text-ink/75">John Crystal Pools is a Southern California design-and-build company for distinctive pools, spas, water features, landscapes, and hardscapes — including new construction and remodeling.</p>
+          <p className="mt-4 max-w-2xl text-ink/75">We are a Southern California design-and-build company for distinctive pools, spas, water features, landscapes, and hardscapes — including new construction and remodeling.</p>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: "Custom pools", body: "Perimeter overflow, vanishing edge, lap pools, and tightly fitted yards." },
+              { title: "Custom pools", body: "Perimeter-edge and vanishing-edge pools designed around the house and the yard." },
               { title: "Spas & water features", body: "Elevated spas, tile spillways, and water sheets that finish the edge." },
               { title: "Landscapes & hardscapes", body: "Decks, terraces, planting, and masonry as part of the outdoor room." },
-              { title: "Remodeling", body: "Rebuild an existing pool when the structure can stay and the finish needs to change." },
-              { title: "Outdoor living", body: "BBQ islands, fire features, and terraces planned with the water." },
+              { title: "Remodeling", body: "New construction and remodeling of existing pools." },
+              { title: "Outdoor living", body: "Terraces and outdoor rooms planned together with the water." },
               { title: "Total Concept", body: "Pool designers, landscapers, and hardscape specialists as one project team." },
             ].map((s) => (
               <article key={s.title} className="border border-stone/40 bg-white p-6">
@@ -73,7 +73,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl">
           <p className="text-xs uppercase tracking-[0.28em] text-sand">Selected work</p>
           <h2 className="mt-3 font-serif text-4xl md:text-5xl">Completed environments</h2>
-          <p className="mt-4 max-w-2xl text-cream/75">Photographs from the company’s own project library.</p>
+          <p className="mt-4 max-w-2xl text-cream/75">A selection of our projects.</p>
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {projects.map((p) => (
               <figure key={p.src} className="overflow-hidden bg-ink">
@@ -92,7 +92,7 @@ export default function HomePage() {
         <img src={img.edge} alt="Custom tile vanishing edge with water sheet" className="h-full min-h-[320px] w-full object-cover" />
         <div id="approach" className="flex flex-col justify-center bg-cream px-6 py-16 md:px-14">
           <p className="text-xs uppercase tracking-[0.28em] text-water">How a project starts</p>
-          <h2 className="mt-3 font-serif text-4xl">A simple, truthful sequence</h2>
+          <h2 className="mt-3 font-serif text-4xl">From first walk-through to finished yard</h2>
           <ol className="mt-8 space-y-5 text-ink/80">
             <li><span className="font-semibold text-ink">1. Walk the yard.</span> Access, grade, the house, and how the space will be used.</li>
             <li><span className="font-semibold text-ink">2. Design the environment.</span> Pool, spa, hardscape, and planting together.</li>
@@ -106,9 +106,9 @@ export default function HomePage() {
             <p className="text-xs uppercase tracking-[0.28em] text-water">The company</p>
             <h2 className="mt-3 font-serif text-4xl md:text-5xl">A pool career that started in 1970</h2>
             <div className="mt-6 space-y-4 text-ink/80">
-              <p>John Crystal began as a pool service technician. The company moved into construction and remodeling, then landscapes and hardscapes.</p>
-              <p>The firm describes its method as Total Concept: in-house staff working with landscapers, pool designers, and hardscape specialists.</p>
-              <p>The company has been profiled in the Los Angeles Times. First-party materials also note Architectural Digest features.</p>
+              <p>John Crystal began as a pool service technician in 1970. From there we moved into construction and remodeling, then landscapes and hardscapes.</p>
+              <p>Our method is Total Concept: in-house staff working with landscapers, pool designers, and hardscape specialists.</p>
+              <p>We have been featured in the Los Angeles Times.</p>
             </div>
           </div>
           <aside className="border border-stone/40 bg-cream p-7 lg:col-span-5">
@@ -137,7 +137,7 @@ export default function HomePage() {
           <div>
             <p className="text-xs uppercase tracking-[0.28em] text-water">Start a conversation</p>
             <h2 className="mt-3 font-serif text-4xl md:text-5xl">Request an estimate</h2>
-            <p className="mt-4 max-w-md text-ink/75">Call, email, or send a short note. Numbers and address from johncrystalpools.com.</p>
+            <p className="mt-4 max-w-md text-ink/75">Call, email, or send us a short note about your yard.</p>
             <div className="mt-8 space-y-3 text-ink">
               <p><a className="text-lg font-semibold hover:text-water" href="tel:8188850004">(818) 885-0004</a></p>
               <p><a className="hover:text-water" href="tel:3104772828">(310) 477-2828</a></p>
