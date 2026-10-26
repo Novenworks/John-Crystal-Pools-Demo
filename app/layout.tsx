@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "John Crystal Pools | Custom Pools & Outdoor Environments in Southern California",
   description:
     "John Crystal Pools designs and builds custom pools, spas, water features, landscapes, and hardscapes across Los Angeles and Ventura counties.",
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({
